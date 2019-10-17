@@ -9,8 +9,8 @@ public class Practice01Test {
     public void should_person_have_name_and_age() {
         Person person = new Person("Tom", 21);
 
-        assertEquals(person.getName(), "Tom");
-        assertEquals(person.getAge(), 21);
+        assertEquals("Tom", person.getName());
+        assertEquals(21, person.getAge());
     }
 
     // 打开注释以继续
@@ -19,6 +19,6 @@ public class Practice01Test {
 //        Person tom = new Person("Tom", 21);
 //
 //        String introduce = tom.introduce();
-//        assertEquals(introduce, "My name is Tom. I am 21 years old.");
+//        assertEquals("My name is Tom. I am 21 years old.", introduce);
 //    }
 }
